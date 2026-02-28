@@ -15,6 +15,7 @@ import terminalRoutes from './routes/terminals.js';
 import driverRoutes from './routes/drivers.js';
 import vehicleRoutes from './routes/vehicles.js';
 import equipmentRoutes from './routes/equipment.js';
+import geotabRoutes from './routes/geotab.js';
 
 const port = Number(process.env['PORT'] ?? 3031);
 
@@ -49,6 +50,7 @@ export async function buildServer() {
   await server.register(driverRoutes);
   await server.register(vehicleRoutes);
   await server.register(equipmentRoutes);
+  await server.register(geotabRoutes);
 
   return server;
 }

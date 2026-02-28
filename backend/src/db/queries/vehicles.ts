@@ -135,3 +135,23 @@ export async function removeVehicleFromTerminal(terminalId: string, vehicleId: s
   `;
   return result.count > 0;
 }
+
+/** Find a vehicle by its Geotab device ID (used during Geotab sync) */
+export async function findVehicleByGeotabDeviceId(geotabDeviceId: string): Promise<Vehicle | undefined> {
+  const rows = await sql`
+    SELECT ${VEHICLE_COLUMNS}
+    FROM vehicles
+    WHERE geotab_device_id = ${geotabDeviceId}
+  `;
+  return rows[0] as Vehicle | undefined;
+}
+
+/** Find a vehicle by its truck ID (fallback match during Geotab sync) */
+export async function findVehicleByTruckId(truckId: string): Promise<Vehicle | undefined> {
+  const rows = await sql`
+    SELECT ${VEHICLE_COLUMNS}
+    FROM vehicles
+    WHERE truck_id = ${truckId}
+  `;
+  return rows[0] as Vehicle | undefined;
+}

@@ -231,3 +231,13 @@ export async function removeDriverFromBench(terminalId: string, driverId: string
   `;
   return result.count > 0;
 }
+
+/** Find a driver by their Geotab username (used during Geotab sync) */
+export async function findDriverByGeotabUsername(geotabUsername: string): Promise<Driver | undefined> {
+  const rows = await sql`
+    SELECT ${DRIVER_COLUMNS}
+    FROM drivers
+    WHERE geotab_username = ${geotabUsername}
+  `;
+  return rows[0] as Driver | undefined;
+}
