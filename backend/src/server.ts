@@ -16,6 +16,11 @@ import driverRoutes from './routes/drivers.js';
 import vehicleRoutes from './routes/vehicles.js';
 import equipmentRoutes from './routes/equipment.js';
 import geotabRoutes from './routes/geotab.js';
+import routeRoutes from './routes/routes.js';
+import dispatchRoutes from './routes/dispatch.js';
+import alertRoutes from './routes/alerts.js';
+import availabilityRoutes from './routes/availability.js';
+import routeSubstitutionRoutes from './routes/route-substitutions.js';
 
 const port = Number(process.env['PORT'] ?? 3031);
 
@@ -51,6 +56,11 @@ export async function buildServer() {
   await server.register(vehicleRoutes);
   await server.register(equipmentRoutes);
   await server.register(geotabRoutes);
+  await server.register(routeRoutes);
+  await server.register(dispatchRoutes);
+  await server.register(alertRoutes);
+  await server.register(availabilityRoutes);
+  await server.register(routeSubstitutionRoutes);
 
   return server;
 }
