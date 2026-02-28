@@ -1,30 +1,60 @@
 import Fastify from 'fastify';
 import cors from '@fastify/cors';
+import cookie from '@fastify/cookie';
+import {
+  serializerCompiler,
+  validatorCompiler,
+} from 'fastify-type-provider-zod';
+
+// Side-effect import: adds user and terminalId to FastifyRequest type
+import './auth/request-context.js';
+
+import authRoutes from './routes/auth.js';
+import userRoutes from './routes/users.js';
 
 const port = Number(process.env['PORT'] ?? 3031);
 
 export async function buildServer() {
   const server = Fastify({ logger: true });
 
+  // Zod schema validation for request/response
+  server.setValidatorCompiler(validatorCompiler);
+  server.setSerializerCompiler(serializerCompiler);
+
   await server.register(cors, {
     origin: true,
     credentials: true,
   });
 
+  await server.register(cookie);
+
+  // Decorate request with auth context placeholders.
+  // Using undefined as initial value for the JwtPayload getter/setter.
+  server.decorateRequest('user', undefined as never);
+  server.decorateRequest('terminalId', '');
+
+  // Health check
   server.get('/health', async () => {
     return { status: 'ok' };
   });
 
+  // Routes
+  await server.register(authRoutes);
+  await server.register(userRoutes);
+
   return server;
 }
 
-async function start() {
-  const server = await buildServer();
+// Entry point: only runs when this file is executed directly (not imported)
+const isDirectRun =
+  process.argv[1]?.endsWith('server.ts') ||
+  process.argv[1]?.endsWith('server.js');
 
-  await server.listen({ port, host: '0.0.0.0' });
+if (isDirectRun) {
+  buildServer()
+    .then((server) => server.listen({ port, host: '0.0.0.0' }))
+    .catch((err) => {
+      console.error(err);
+      process.exit(1);
+    });
 }
-
-start().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
