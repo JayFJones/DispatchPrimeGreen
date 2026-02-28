@@ -1,0 +1,89 @@
+{
+  "name": "backend",
+  "description": "The backend for disptachPrime",
+  "version": "0.0.0",
+  "homepage": "",
+  "private": true,
+  "keywords": [
+    "feathers"
+  ],
+  "author": {},
+  "contributors": [],
+  "bugs": {},
+  "engines": {
+    "node": ">= 22.17.0"
+  },
+  "feathers": {
+    "language": "ts",
+    "packager": "npm",
+    "database": "mongodb",
+    "framework": "koa",
+    "transports": [
+      "rest",
+      "websockets"
+    ],
+    "schema": "typebox"
+  },
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "files": [
+    "lib/client.js",
+    "lib/**/*.d.ts",
+    "lib/**/*.shared.js"
+  ],
+  "main": "lib/client",
+  "scripts": {
+    "dev": "nodemon -x ts-node src/index.ts",
+    "compile": "shx rm -rf lib/ && tsc",
+    "start": "node lib/",
+    "prettier": "npx prettier \"**/*.ts\" --write",
+    "mocha": "cross-env NODE_ENV=test mocha test/ --require ts-node/register --recursive --extension .ts --exit",
+    "test": "npm run mocha",
+    "bundle:client": "npm run compile && npm pack --pack-destination ./public"
+  },
+  "dependencies": {
+    "@feathersjs/adapter-commons": "^5.0.34",
+    "@feathersjs/authentication": "^5.0.34",
+    "@feathersjs/authentication-client": "^5.0.34",
+    "@feathersjs/authentication-local": "^5.0.34",
+    "@feathersjs/authentication-oauth": "^5.0.34",
+    "@feathersjs/configuration": "^5.0.34",
+    "@feathersjs/errors": "^5.0.34",
+    "@feathersjs/express": "^5.0.34",
+    "@feathersjs/feathers": "^5.0.34",
+    "@feathersjs/koa": "^5.0.34",
+    "@feathersjs/mongodb": "^5.0.34",
+    "@feathersjs/schema": "^5.0.34",
+    "@feathersjs/socketio": "^5.0.34",
+    "@feathersjs/transport-commons": "^5.0.34",
+    "@feathersjs/typebox": "^5.0.34",
+    "@koa/router": "^13.1.1",
+    "@types/koa-router": "^7.4.8",
+    "@types/multer": "^2.0.0",
+    "dauria": "^2.0.0",
+    "feathers-blob": "^2.6.0",
+    "mg-api-js": "^3.0.0",
+    "mongodb": "^6.17.0",
+    "multer": "^2.0.1",
+    "winston": "^3.17.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@feathersjs/cli": "^5.0.34",
+    "@feathersjs/rest-client": "^5.0.34",
+    "@types/koa__router": "^12.0.4",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.16.0",
+    "@types/xlsx": "^0.0.35",
+    "axios": "^1.10.0",
+    "cross-env": "^7.0.3",
+    "mocha": "^11.7.1",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "shx": "^0.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

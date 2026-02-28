@@ -1,0 +1,1107 @@
+Successful authentication
+Server response data: [
+  {
+    "isGlobalReportingGroup": false,
+    "children": [
+      {
+        "id": "b29C7"
+      },
+      {
+        "id": "b28A4"
+      },
+      {
+        "id": "b28A5"
+      },
+      {
+        "id": "b28A7"
+      },
+      {
+        "id": "b289E"
+      },
+      {
+        "id": "b28A2"
+      },
+      {
+        "id": "b28A8"
+      },
+      {
+        "id": "b29C8"
+      },
+      {
+        "id": "b2B3B"
+      },
+      {
+        "id": "b28AB"
+      },
+      {
+        "id": "b28AA"
+      },
+      {
+        "id": "b28A9"
+      },
+      {
+        "id": "b28B9"
+      }
+    ],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b282D",
+    "name": "WMC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b289E",
+    "name": "Lakes West Maintenance",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28A2",
+    "name": "Louisville KY",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28A4",
+    "name": "Bismarck ND",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28A5",
+    "name": "Bloomington IL",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28A7",
+    "name": "Fargo ND",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28A8",
+    "name": "Menomonie WI",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28A9",
+    "name": "Sioux Falls SD",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28AA",
+    "name": "Rockford IL",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28AB",
+    "name": "Quad Cities",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [
+      {
+        "id": "b28D0"
+      },
+      {
+        "id": "b2A70"
+      },
+      {
+        "id": "b2A71"
+      },
+      {
+        "id": "b28CD"
+      },
+      {
+        "id": "b28CE"
+      },
+      {
+        "id": "b28CC"
+      },
+      {
+        "id": "b28CA"
+      },
+      {
+        "id": "b28CB"
+      }
+    ],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28B9",
+    "name": "WMC Equip",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28CA",
+    "name": "Ryder Lease - WMC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28CB",
+    "name": "Ryder Rental - WMC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28CC",
+    "name": "Ryder Await Lease - WMC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28CD",
+    "name": "Penske Lease - WMC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28CE",
+    "name": "Penske Rental - WMC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b28D0",
+    "name": "Gateway Lease - WMC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2A70",
+    "name": "Paccar Lease - WMC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2A71",
+    "name": "Paccar Rental - WMC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b29C7",
+    "name": "Aurora IL",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b29C8",
+    "name": "Minooka IL",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2B3B",
+    "name": "Pleasant Prairie WI",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [
+      {
+        "id": "b2988"
+      },
+      {
+        "id": "b2A12"
+      },
+      {
+        "id": "b295A"
+      },
+      {
+        "id": "b295B"
+      },
+      {
+        "id": "b2AB6"
+      },
+      {
+        "id": "b2AA9"
+      },
+      {
+        "id": "b2A91"
+      },
+      {
+        "id": "b2959"
+      },
+      {
+        "id": "b2958"
+      }
+    ],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2957",
+    "name": "Equipment Vendor",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2958",
+    "name": "Ryder",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2959",
+    "name": "Penske",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b295A",
+    "name": "Enterprise",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b295B",
+    "name": "Gateway",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2988",
+    "name": "Carrier Owned",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2A12",
+    "name": "Cerni",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2A91",
+    "name": "Paccar",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2AA9",
+    "name": "MHC",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": false,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2AB6",
+    "name": "Kenworth",
+    "reference": ""
+  },
+  {
+    "id": "GroupAssetInformationId",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "isGlobalReportingGroup": true,
+    "children": [
+      {
+        "id": "GroupAssetPurposeId"
+      },
+      {
+        "id": "GroupAssetTypeId"
+      },
+      {
+        "id": "b2919"
+      },
+      {
+        "id": "GroupPowertrainAndFuelTypeId"
+      },
+      {
+        "id": "b292D"
+      }
+    ],
+    "comments": "",
+    "name": "Asset Information",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": true,
+    "children": [
+      {
+        "id": "b291B"
+      }
+    ],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b2919",
+    "name": "External Vendor Services",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": true,
+    "children": [
+      {
+        "id": "b2920"
+      },
+      {
+        "id": "b291F"
+      },
+      {
+        "id": "b291E"
+      },
+      {
+        "id": "b291D"
+      },
+      {
+        "id": "b291C"
+      },
+      {
+        "id": "b291A"
+      }
+    ],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b291B",
+    "name": "Rental/Lease Vehicles",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 40,
+      "g": 32,
+      "r": 206
+    },
+    "comments": "",
+    "id": "b291A",
+    "name": "Ryder Rental",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 40,
+      "g": 32,
+      "r": 206
+    },
+    "comments": "",
+    "id": "b291C",
+    "name": "Ryder Lease",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 206,
+      "g": 114,
+      "r": 0
+    },
+    "comments": "",
+    "id": "b291D",
+    "name": "Penske Rental",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 206,
+      "g": 114,
+      "r": 0
+    },
+    "comments": "",
+    "id": "b291E",
+    "name": "Penske Lease",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 80,
+      "g": 151,
+      "r": 0
+    },
+    "comments": "",
+    "id": "b291F",
+    "name": "Enterprise Rental",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 80,
+      "g": 151,
+      "r": 0
+    },
+    "comments": "",
+    "id": "b2920",
+    "name": "Enterprise Lease",
+    "reference": ""
+  },
+  {
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 69,
+      "r": 255
+    },
+    "comments": "",
+    "id": "b292D",
+    "name": "Terminal Locations",
+    "reference": ""
+  },
+  {
+    "id": "GroupAssetPurposeId",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Asset Purpose",
+    "reference": ""
+  },
+  {
+    "id": "GroupAssetTypeId",
+    "color": {
+      "a": 255,
+      "b": 255,
+      "g": 110,
+      "r": 165
+    },
+    "isGlobalReportingGroup": true,
+    "children": [
+      {
+        "id": "GroupContainerId"
+      },
+      {
+        "id": "GroupEquipmentId"
+      },
+      {
+        "id": "GroupTrailerId"
+      },
+      {
+        "id": "GroupVehicleId"
+      }
+    ],
+    "comments": "",
+    "name": "Asset Type",
+    "reference": ""
+  },
+  {
+    "id": "GroupEquipmentId",
+    "color": {
+      "a": 255,
+      "b": 255,
+      "g": 159,
+      "r": 128
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Equipment",
+    "reference": ""
+  },
+  {
+    "id": "GroupContainerId",
+    "color": {
+      "a": 255,
+      "b": 255,
+      "g": 255,
+      "r": 128
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Container",
+    "reference": ""
+  },
+  {
+    "id": "GroupVehicleId",
+    "color": {
+      "a": 255,
+      "b": 255,
+      "g": 152,
+      "r": 16
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Vehicle",
+    "reference": ""
+  },
+  {
+    "id": "GroupTrailerId",
+    "color": {
+      "a": 255,
+      "b": 13,
+      "g": 158,
+      "r": 255
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Trailer",
+    "reference": ""
+  },
+  {
+    "id": "GroupPowertrainAndFuelTypeId",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "isGlobalReportingGroup": true,
+    "children": [
+      {
+        "id": "GroupElectricHybridPluginId"
+      },
+      {
+        "id": "GroupFuelCellElectricVehicleId"
+      },
+      {
+        "id": "GroupInternalCombustionEngineId"
+      },
+      {
+        "id": "GroupManuallyClassifiedPowertrainId"
+      }
+    ],
+    "comments": "",
+    "name": "Powertrain and Fuel Type",
+    "reference": ""
+  },
+  {
+    "id": "GroupFuelCellElectricVehicleId",
+    "color": {
+      "a": 255,
+      "b": 255,
+      "g": 152,
+      "r": 16
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Fuel Cell Electric Vehicle",
+    "reference": ""
+  },
+  {
+    "id": "GroupManuallyClassifiedPowertrainId",
+    "color": {
+      "a": 255,
+      "b": 196,
+      "g": 41,
+      "r": 105
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Manually Classified Powertrain",
+    "reference": ""
+  },
+  {
+    "id": "GroupElectricHybridPluginId",
+    "color": {
+      "a": 255,
+      "b": 56,
+      "g": 95,
+      "r": 43
+    },
+    "isGlobalReportingGroup": true,
+    "children": [
+      {
+        "id": "GroupBatteryElectricVehicleId"
+      },
+      {
+        "id": "GroupPluginHybridElectricVehicleId"
+      }
+    ],
+    "comments": "",
+    "name": "Electric or Plug-In Hybrid",
+    "reference": ""
+  },
+  {
+    "id": "GroupPluginHybridElectricVehicleId",
+    "color": {
+      "a": 255,
+      "b": 9,
+      "g": 156,
+      "r": 124
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Plug-in Hybrid Electric Vehicle",
+    "reference": ""
+  },
+  {
+    "id": "GroupBatteryElectricVehicleId",
+    "color": {
+      "a": 255,
+      "b": 29,
+      "g": 210,
+      "r": 171
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Battery Electric Vehicle",
+    "reference": ""
+  },
+  {
+    "id": "GroupInternalCombustionEngineId",
+    "color": {
+      "a": 255,
+      "b": 149,
+      "g": 118,
+      "r": 117
+    },
+    "isGlobalReportingGroup": true,
+    "children": [
+      {
+        "id": "GroupBiodieselId"
+      },
+      {
+        "id": "GroupCompressedNaturalGasId"
+      },
+      {
+        "id": "GroupDieselId"
+      },
+      {
+        "id": "GroupEthanolId"
+      },
+      {
+        "id": "GroupGasolinePetrolId"
+      },
+      {
+        "id": "GroupOtherFuelId"
+      },
+      {
+        "id": "GroupPropaneLiquifiedPetroleumGasId"
+      }
+    ],
+    "comments": "",
+    "name": "Internal Combustion Engine",
+    "reference": ""
+  },
+  {
+    "id": "GroupPropaneLiquifiedPetroleumGasId",
+    "color": {
+      "a": 255,
+      "b": 58,
+      "g": 124,
+      "r": 218
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Propane or Liquified Petroleum Gas",
+    "reference": ""
+  },
+  {
+    "id": "GroupOtherFuelId",
+    "color": {
+      "a": 255,
+      "b": 13,
+      "g": 158,
+      "r": 255
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Other Fuel Type",
+    "reference": ""
+  },
+  {
+    "id": "GroupCompressedNaturalGasId",
+    "color": {
+      "a": 255,
+      "b": 8,
+      "g": 4,
+      "r": 82
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Compressed Natural Gas",
+    "reference": ""
+  },
+  {
+    "id": "GroupBiodieselId",
+    "color": {
+      "a": 255,
+      "b": 73,
+      "g": 39,
+      "r": 1
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Biodiesel",
+    "reference": ""
+  },
+  {
+    "id": "GroupEthanolId",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 134,
+      "r": 178
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Ethanol",
+    "reference": ""
+  },
+  {
+    "id": "GroupDieselId",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 56,
+      "r": 138
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Diesel",
+    "reference": ""
+  },
+  {
+    "id": "GroupGasolinePetrolId",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 214,
+      "r": 255
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Gasoline or Petrol",
+    "reference": ""
+  },
+  {
+    "id": "GroupDriverActivityGroupId",
+    "color": {
+      "a": 255,
+      "b": 72,
+      "g": 125,
+      "r": 56
+    },
+    "isGlobalReportingGroup": true,
+    "children": [
+      {
+        "id": "GroupBusinessGroupId"
+      },
+      {
+        "id": "GroupPersonalGroupId"
+      }
+    ],
+    "comments": "",
+    "name": "DriverActivity",
+    "reference": ""
+  },
+  {
+    "id": "GroupPersonalGroupId",
+    "color": {
+      "a": 255,
+      "b": 210,
+      "g": 125,
+      "r": 13
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Personal",
+    "reference": ""
+  },
+  {
+    "id": "GroupBusinessGroupId",
+    "color": {
+      "a": 255,
+      "b": 98,
+      "g": 35,
+      "r": 145
+    },
+    "isGlobalReportingGroup": true,
+    "children": [],
+    "comments": "",
+    "name": "Business",
+    "reference": ""
+  }
+]

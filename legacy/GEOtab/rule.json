@@ -1,0 +1,3182 @@
+Successful authentication
+Server response data: [
+  {
+    "activeFrom": "2023-09-11T12:57:13.494Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 255,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "conditionType": "ExitingArea",
+      "sequence": "0000000000000000",
+      "zone": {
+        "id": "b6D6"
+      },
+      "id": "aOV_SWOkzkU-eoyRPM6KzVA"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aO29yBM6B3Ee3cj89XnfTLw",
+    "name": "Leaving Minooka Terminal",
+    "groups": [
+      {
+        "id": "b28A9"
+      },
+      {
+        "id": "b28AA"
+      },
+      {
+        "id": "b28A8"
+      },
+      {
+        "id": "b28A7"
+      },
+      {
+        "id": "b28A5"
+      },
+      {
+        "id": "b28A4"
+      },
+      {
+        "id": "b28AB"
+      },
+      {
+        "id": "b289E"
+      },
+      {
+        "id": "b28A2"
+      }
+    ],
+    "version": "0000000000006771"
+  },
+  {
+    "activeFrom": "2023-06-19T03:43:39.116Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 255,
+      "g": 0,
+      "r": 0
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "conditionType": "Speed",
+          "sequence": "0000000000000000",
+          "id": "a7q6m2FHJPEmTMIAjzwLg6w"
+        }
+      ],
+      "conditionType": "IsValueMoreThan",
+      "sequence": "0000000000000000",
+      "unit": "km/h",
+      "value": 125,
+      "id": "a-QbdvGb4YkOmnyNeefm50Q"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aWu3TCmus_U2uS1hvOppEKA",
+    "name": "Excessive Speeding",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000000f"
+  },
+  {
+    "activeFrom": "2023-09-15T00:01:59.083Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 165,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "conditionType": "ExitingArea",
+          "sequence": "0000000000000000",
+          "zone": {
+            "id": "bBDF"
+          },
+          "id": "a-gqVO_cH6EKYCHlWaSyi2g"
+        },
+        {
+          "conditionType": "Group",
+          "sequence": "0000000000000001",
+          "group": {
+            "children": [],
+            "id": "b28A6"
+          },
+          "id": "aVN8Jtf0ST0ar2qwbmBj6-Q"
+        },
+        {
+          "conditionType": "Group",
+          "sequence": "0000000000000002",
+          "group": {
+            "children": [],
+            "id": "b28A6"
+          },
+          "id": "aE-xv9pqpYkKt79zkwPTXSQ"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "akHZDYJ87EU6zJa602dtwbA"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "at9QXD4YwjEiTGq3mBT-SJA",
+    "name": "Toy PDC Aurora - Leaving",
+    "groups": [
+      {
+        "id": "b289E"
+      }
+    ],
+    "version": "00000000000067b1"
+  },
+  {
+    "activeFrom": "2023-06-05T20:07:38.541Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticDriverSeatbeltId",
+                "unitOfMeasure": "UnitOfMeasureNoneId"
+              },
+              "id": "aZAnnACb70E6H1q1zqV5-bQ"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "value": 0,
+          "id": "aEx4qEXi_bU6erDwI6eBWLg"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "Speed",
+              "sequence": "0000000000000000",
+              "id": "aFWC-MamaBUqvDsiRe3MK4Q"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000001",
+          "unit": "km/h",
+          "value": 10,
+          "id": "aYIr5tae1FkaE-JG-VcNekQ"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "all1b_mD-eU6BkL1dJ4ZHVQ"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleSeatbeltId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticDriverSeatbeltId"
+        },
+        "id": "ayMi95n5fH0igFf-dWGQoaQ"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleSeatbeltId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticDriverSeatbeltId"
+        },
+        "id": "a1upN6OxHOkaHsGcQWC-NVw"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleSeatbeltId",
+    "name": "Seat belt",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000000a"
+  },
+  {
+    "activeFrom": "2025-01-10T14:34:55.140Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "Speed",
+              "sequence": "0000000000000000",
+              "id": "aXH6CRJdZMkWb1RnG26XhhA"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "km/h",
+          "value": 0,
+          "id": "a9y4fLufAYUanKqbDtiNXBg"
+        },
+        {
+          "conditionType": "Ignition",
+          "sequence": "0000000000000001",
+          "value": 1,
+          "id": "a_lMCy95CgUyIrTSI47P0sw"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "FilterStatusDataByDiagnostic",
+                  "sequence": "0000000000000000",
+                  "diagnostic": {
+                    "id": "DiagnosticAccelerationSideToSideId",
+                    "unitOfMeasure": "UnitOfMeasureMetersPerSecondSquaredId"
+                  },
+                  "id": "arSA6BgcvvU-iZFzfgMn_1w"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "unit": "m/s^2",
+              "value": 3.530394044931325,
+              "id": "aEav8lC2sM0iSnFGkz4QWWA"
+            },
+            {
+              "children": [
+                {
+                  "conditionType": "FilterStatusDataByDiagnostic",
+                  "sequence": "0000000000000000",
+                  "diagnostic": {
+                    "id": "DiagnosticAccelerationSideToSideId",
+                    "unitOfMeasure": "UnitOfMeasureMetersPerSecondSquaredId"
+                  },
+                  "id": "a9yHnK251hUulXS8Zvh1vEw"
+                }
+              ],
+              "conditionType": "IsValueLessThan",
+              "sequence": "0000000000000001",
+              "unit": "m/s^2",
+              "value": -3.530394044931325,
+              "id": "avQrZZgD-iEyHPbGL8_ZgXQ"
+            }
+          ],
+          "conditionType": "Or",
+          "sequence": "0000000000000002",
+          "id": "ajkbrCeNhlUeQMgeQ7oTrhQ"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "aBMbFz8nBlkOTZhWv_7rVPA"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleHarshCorneringId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationSideToSideId"
+        },
+        "id": "avHDv2U-UzUKXCus65H2RCg"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleHarshCorneringId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationSideToSideId"
+        },
+        "id": "aJkq1ScqTE06avWOLfSqs-A"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleHarshCorneringId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "ahzJWnmtJ6kCxB7hCvG3Qow"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleHarshCorneringId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "abG4yvcOHAUqHZsJfpx3ODA"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleHarshCorneringId",
+    "name": "Harsh Cornering",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000af77"
+  },
+  {
+    "activeFrom": "2024-06-21T02:28:50.644Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "aKpxIsjKPaUSDIKFhUbejgw",
+                "unitOfMeasure": "UnitOfMeasureNoneId"
+              },
+              "id": "a98aXGTizYkmjXP5vEzsXJA"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "value": 0,
+          "id": "aLd5vi9kzoki9ENzul2TE6A"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "aKpxIsjKPaUSDIKFhUbejgw",
+                "unitOfMeasure": "UnitOfMeasureNoneId"
+              },
+              "id": "avn1O9ePvJ0GzLdSUNkN8gQ"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000001",
+          "value": 2,
+          "id": "axuXpvM6VFk-r1Mhmv6Uuig"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "aCZ7kCfAqtki6oBIrUHnM5g"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aaqyjGUZ5fk-LzGKjE1BfLg"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "aKpxIsjKPaUSDIKFhUbejgw"
+        },
+        "id": "aXexXh6VNU0u1gjw3v2AJKw"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aaqyjGUZ5fk-LzGKjE1BfLg"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "aKpxIsjKPaUSDIKFhUbejgw"
+        },
+        "id": "acxjwQ0D8Ak-q0p4zj8FsTg"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aaqyjGUZ5fk-LzGKjE1BfLg",
+    "name": "Anti-Lock Braking Systems (ABS) Issue",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000006a30"
+  },
+  {
+    "activeFrom": "2023-06-05T19:50:56.271Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "Speed",
+              "sequence": "0000000000000000",
+              "id": "a8RiY8_VQUkujG9NYCpypbg"
+            },
+            {
+              "conditionType": "SpeedLimit",
+              "sequence": "0000000000000001",
+              "id": "aL5IlIAZg7kOb6vEAUKcJQQ"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "km/h",
+          "value": 9.656064,
+          "id": "aGOPjRgKxgkqv_3sJPw1LEA"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 20,
+      "id": "athxDYHA8h0aLp69jvPUrKQ"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RulePostedSpeedingId",
+    "name": "Speeding",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000000006"
+  },
+  {
+    "activeFrom": "2024-04-10T16:00:04.018Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "conditionType": "FilterStatusDataByDiagnostic",
+          "sequence": "0000000000000000",
+          "diagnostic": {
+            "id": "DiagnosticGoDeviceVoltageId",
+            "unitOfMeasure": "UnitOfMeasureVoltsId"
+          },
+          "id": "aL3e0K4-ag0moSi0C2uURHA"
+        }
+      ],
+      "conditionType": "IsValueLessThan",
+      "sequence": "0000000000000000",
+      "unit": "V",
+      "value": 9,
+      "id": "apVVOQOfVS0SuT5tAXsIAuQ"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleLightsLeftOnId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticGoDeviceVoltageId"
+        },
+        "id": "aDVxhHmCIrUSTbGwjdKtb_A"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleLightsLeftOnId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticGoDeviceVoltageId"
+        },
+        "id": "aEWXEFy1ed06BYnPHAkXXwA"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleLightsLeftOnId",
+    "name": "Battery Drain",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "00000000000069bb"
+  },
+  {
+    "activeFrom": "2024-10-23T23:57:28.849Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "IsDriving",
+                  "sequence": "0000000000000000",
+                  "id": "aMRllNjyugUGsMIpMXEilvQ"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "value": 0,
+              "id": "awB2NjpTyRkunHyzI_nk8GA"
+            }
+          ],
+          "conditionType": "Driver",
+          "sequence": "0000000000000000",
+          "driver": "UnknownDriverId",
+          "id": "a_fW7aSDrK06IAtcARzP_rg"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 300,
+      "id": "aVElOS3vWvkaDprywoOdnuQ"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aWQbPHRwLTEulee1-vRI3oQ",
+    "name": "Louisville truck moving without driver being logged in.",
+    "groups": [
+      {
+        "id": "b28A2"
+      }
+    ],
+    "version": "000000000000aecc"
+  },
+  {
+    "activeFrom": "2023-06-05T20:07:45.164Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "conditionType": "FilterStatusDataByDiagnostic",
+          "sequence": "0000000000000000",
+          "diagnostic": {
+            "id": "DiagnosticPossibleCollisionDetectedId",
+            "unitOfMeasure": "UnitOfMeasureNoneId"
+          },
+          "id": "aSXOtMdG-tEGcDrXoKBOEig"
+        }
+      ],
+      "conditionType": "IsValueMoreThan",
+      "sequence": "0000000000000000",
+      "value": 49,
+      "id": "agec8zJmQfUm54v_KG52tAg"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleEnhancedMajorCollisionId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticPossibleCollisionDetectedId"
+        },
+        "id": "arXFevgqM7EKfUNisDYwS0Q"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleEnhancedMajorCollisionId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticPossibleCollisionDetectedId"
+        },
+        "id": "az0f2ke3fj0CAsgAOVGi1UQ"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleEnhancedMajorCollisionId",
+    "name": "Major Collision",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000694b"
+  },
+  {
+    "activeFrom": "2025-01-10T14:34:56.219Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "Speed",
+              "sequence": "0000000000000000",
+              "id": "aGpmZm6-mPUuDL9GLnWMCHw"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "km/h",
+          "value": 0,
+          "id": "aRxIJo-Zo002g1Ux0XqokJA"
+        },
+        {
+          "conditionType": "Ignition",
+          "sequence": "0000000000000001",
+          "value": 1,
+          "id": "aLtRnY9KIY0S4qo1mpzP3AQ"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticAccelerationForwardBrakingId",
+                "unitOfMeasure": "UnitOfMeasureMetersPerSecondSquaredId"
+              },
+              "id": "aEr9goKS4vkOAcUYfYXZjRA"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000002",
+          "unit": "m/s^2",
+          "value": 3.0008349381916264,
+          "id": "ad5b6aA7Cm0KzxIgckSKEqA"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "amglo-ybzOkKdIT5FoYUo2w"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleJackrabbitStartsId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationForwardBrakingId"
+        },
+        "id": "aBo5KpWyLEEW-f8nhClKh3A"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleJackrabbitStartsId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationForwardBrakingId"
+        },
+        "id": "aWK0uXmMJmECs-St2tApxbA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleJackrabbitStartsId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "avWDl_m6eHEi2cYCgYeaaTQ"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleJackrabbitStartsId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "arkWUEqHu6Eq_sOjMFw5k1A"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleJackrabbitStartsId",
+    "name": "Hard Acceleration",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000af78"
+  },
+  {
+    "activeFrom": "2024-03-05T14:50:42.268Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "FilterStatusDataByDiagnostic",
+                  "sequence": "0000000000000000",
+                  "diagnostic": {
+                    "id": "DiagnosticEngineOilLifeRemainingId",
+                    "unitOfMeasure": "UnitOfMeasurePercentageId"
+                  },
+                  "id": "atVd0IIMG0kejxA4wVVxX8g"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "unit": "%",
+              "value": 4.75,
+              "id": "a0mXmqxKnXEmgEpNcM8RkYQ"
+            },
+            {
+              "children": [
+                {
+                  "conditionType": "FilterStatusDataByDiagnostic",
+                  "sequence": "0000000000000000",
+                  "diagnostic": {
+                    "id": "DiagnosticEngineOilLifeRemainingId",
+                    "unitOfMeasure": "UnitOfMeasurePercentageId"
+                  },
+                  "id": "avcHw6gYzgU6WF74xhnY3MQ"
+                }
+              ],
+              "conditionType": "IsValueLessThan",
+              "sequence": "0000000000000001",
+              "unit": "%",
+              "value": 5,
+              "id": "aoJUIu2pYZkK_UHAXm_JtGw"
+            }
+          ],
+          "conditionType": "And",
+          "sequence": "0000000000000000",
+          "id": "aqFefeLBTsE-fIuK2IMhlww"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 180,
+      "id": "aP-x6iZi-f0GXm458m6XbyQ"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "albeGJ7aUekeacWSFNkIoig"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticEngineOilLifeRemainingId"
+        },
+        "id": "aXxFwh-XJcUGxr8RHuWsEMw"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "albeGJ7aUekeacWSFNkIoig"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticEngineOilLifeRemainingId"
+        },
+        "id": "af5ZbXXv7zUGtWNo4AoCIfA"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "albeGJ7aUekeacWSFNkIoig",
+    "name": "Engine Oil < 5%",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000006974"
+  },
+  {
+    "activeFrom": "2024-06-21T02:29:40.451Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "abFx4qA7vPk-vXGxd8fAOYA",
+                "unitOfMeasure": "UnitOfMeasureNoneId"
+              },
+              "id": "aDYdj_td1V0STrrh7105F_Q"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "value": 0,
+          "id": "aCbUwe8uuykyc6m7Obhw0qw"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "abFx4qA7vPk-vXGxd8fAOYA",
+                "unitOfMeasure": "UnitOfMeasureNoneId"
+              },
+              "id": "a0w6gHMklRkWCRpL7mFeOEg"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000001",
+          "value": 2,
+          "id": "aDOxPxI2_REqvMHO6MInnDw"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "aUa-d8JdYNUKoM8GGFVQrtQ"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFaaxLuU3Kk-TiN7BKxeTVg"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "abFx4qA7vPk-vXGxd8fAOYA"
+        },
+        "id": "abR-U7VR1OEq5NQSFG1Sn8A"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFaaxLuU3Kk-TiN7BKxeTVg"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "abFx4qA7vPk-vXGxd8fAOYA"
+        },
+        "id": "ayITiGHgDckiQHfRia8cEaQ"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aFaaxLuU3Kk-TiN7BKxeTVg",
+    "name": "Camshaft Position Sensor Issue",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000006a32"
+  },
+  {
+    "activeFrom": "2024-06-13T18:26:50.962Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "conditionType": "FilterStatusDataByDiagnostic",
+          "sequence": "0000000000000000",
+          "diagnostic": {
+            "id": "DiagnosticEnhancedMinorCollisionId",
+            "unitOfMeasure": "UnitOfMeasureNoneId"
+          },
+          "id": "acFZBLGL3lUehlubuOscJyA"
+        }
+      ],
+      "conditionType": "IsValueMoreThan",
+      "sequence": "0000000000000000",
+      "value": 49,
+      "id": "amODAge6bI0-QHM51bjVf9Q"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleEnhancedMinorCollisionId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticEnhancedMinorCollisionId"
+        },
+        "id": "aNd2FD0kSy0ewNpwBY6lihg"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleEnhancedMinorCollisionId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticEnhancedMinorCollisionId"
+        },
+        "id": "aYF06-L_suUagr6-R6T6HpQ"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleEnhancedMinorCollisionId",
+    "name": "Minor Collision",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000ae87"
+  },
+  {
+    "activeFrom": "2024-10-24T00:13:36.329Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "IsDriving",
+                  "sequence": "0000000000000000",
+                  "id": "aAP_zwiGkeEGMK0KhGOin8A"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "value": 0,
+              "id": "axY1FIqiIH0q8_7F50iqMxw"
+            }
+          ],
+          "conditionType": "Driver",
+          "sequence": "0000000000000000",
+          "driver": "UnknownDriverId",
+          "id": "aeSXHXxhiU0a4tKWmRInQvw"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 300,
+      "id": "a-QbEqlMCyEeIEsZiB9KS9Q"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "ax5XMNDeL9UWuWe4B5OHlAQ",
+    "name": "RKI truck moving without driver being logged.",
+    "groups": [
+      {
+        "id": "b28AB"
+      }
+    ],
+    "version": "000000000000aece"
+  },
+  {
+    "activeFrom": "2024-03-05T14:51:05.258Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticTirePressureFrontLeftId",
+                "unitOfMeasure": "UnitOfMeasurePascalsId"
+              },
+              "id": "a3Tdq6pdqcEqksevBxfC7pQ"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000000",
+          "unit": "Pa",
+          "value": 135000,
+          "id": "altxz5eVCiEG9KArMQLY-SA"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticTirePressureFrontRightId",
+                "unitOfMeasure": "UnitOfMeasurePascalsId"
+              },
+              "id": "atBkpReXcQ0qBK-dWm-8eNg"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000001",
+          "unit": "Pa",
+          "value": 135000,
+          "id": "atBoFShwQv0uerNyUgWuu_w"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticTirePressureRearLeftId",
+                "unitOfMeasure": "UnitOfMeasurePascalsId"
+              },
+              "id": "aADZ0R6qf3Eq3J4glUiuOJw"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000002",
+          "unit": "Pa",
+          "value": 135000,
+          "id": "aqcb_XYcedUuun-szLwMGnw"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticTirePressureRearRightId",
+                "unitOfMeasure": "UnitOfMeasurePascalsId"
+              },
+              "id": "aVAE1A_EOW0uzFwIcBQ_DIw"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000003",
+          "unit": "Pa",
+          "value": 135000,
+          "id": "aakWNPoLEbEGkWJ0hhMMKRw"
+        }
+      ],
+      "conditionType": "Or",
+      "sequence": "0000000000000000",
+      "id": "aC3-PlyV3NU-Mm3-KGZs6IA"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFkwtQBETikqZMeqTCXduTA"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticTirePressureFrontLeftId"
+        },
+        "id": "ahqxFUuk4MU2EiX9zO8Z_Uw"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFkwtQBETikqZMeqTCXduTA"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticTirePressureFrontLeftId"
+        },
+        "id": "apJk6gcngF0OnqngDCjwsZw"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFkwtQBETikqZMeqTCXduTA"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticTirePressureFrontRightId"
+        },
+        "id": "aQXZRWzOLM0WaGvVnv7h_6Q"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFkwtQBETikqZMeqTCXduTA"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticTirePressureFrontRightId"
+        },
+        "id": "aq7V4JJTOlEqSDoYdGq13Bw"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFkwtQBETikqZMeqTCXduTA"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticTirePressureRearLeftId"
+        },
+        "id": "anDUSM8vVfk6C997YOmGxdA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFkwtQBETikqZMeqTCXduTA"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticTirePressureRearLeftId"
+        },
+        "id": "awXSGS5yDU0OqCokj_5BrRQ"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFkwtQBETikqZMeqTCXduTA"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticTirePressureRearRightId"
+        },
+        "id": "ahZxQ5kwfeESg8yRe2kqc-A"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFkwtQBETikqZMeqTCXduTA"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticTirePressureRearRightId"
+        },
+        "id": "ahcMzISff3kuu3yjOreUfkg"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aFkwtQBETikqZMeqTCXduTA",
+    "name": "Low Tire Pressure",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000006975"
+  },
+  {
+    "activeFrom": "2023-06-05T20:07:41.817Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticAccelerationForwardBrakingId",
+                "unitOfMeasure": "UnitOfMeasureMetersPerSecondSquaredId"
+              },
+              "id": "awscn-4gon0iWvRhCAm7eFA"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "m/s^2",
+          "value": 25,
+          "id": "aYlzb6R5Z3kSwCxj1sZodfQ"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticAccelerationForwardBrakingId",
+                "unitOfMeasure": "UnitOfMeasureMetersPerSecondSquaredId"
+              },
+              "id": "aveZktSnjGUmDhrctfEzE8w"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000001",
+          "unit": "m/s^2",
+          "value": -25,
+          "id": "ay-tbGZ4CvUChrFKvonHy-Q"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticAccelerationSideToSideId",
+                "unitOfMeasure": "UnitOfMeasureMetersPerSecondSquaredId"
+              },
+              "id": "aoP_I-o5_EkalbpR_3DlTDw"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000002",
+          "unit": "m/s^2",
+          "value": 25,
+          "id": "aBLf9XdFG6U6tgO2hiWKq_A"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticAccelerationSideToSideId",
+                "unitOfMeasure": "UnitOfMeasureMetersPerSecondSquaredId"
+              },
+              "id": "atKrOvO8OX06S6hp05y59UQ"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000003",
+          "unit": "m/s^2",
+          "value": -25,
+          "id": "aSycKSmZzaUSgQH11_VRzrw"
+        }
+      ],
+      "conditionType": "Or",
+      "sequence": "0000000000000000",
+      "id": "ak2wz0Gpp60OBe82RVhsqgw"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleAccidentId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationForwardBrakingId"
+        },
+        "id": "aHpsCw2MQRkGoG-b0T0ePLQ"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleAccidentId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationForwardBrakingId"
+        },
+        "id": "ac_BFX1t7mEyYLSpjmWjZOA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleAccidentId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationSideToSideId"
+        },
+        "id": "a4ePdBo3DHk-g7dViutpHbw"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleAccidentId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationSideToSideId"
+        },
+        "id": "anEksT_0neUK_EYl1uxmPKw"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleAccidentId",
+    "name": "Possible Collision (Legacy)",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000694c"
+  },
+  {
+    "activeFrom": "2024-10-24T00:10:16.430Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "IsDriving",
+                  "sequence": "0000000000000000",
+                  "id": "aIPjfkz5AvECql03dVqqpNg"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "value": 0,
+              "id": "au2yqDBgcNUmkkHQjz7TkJA"
+            }
+          ],
+          "conditionType": "Driver",
+          "sequence": "0000000000000000",
+          "driver": "UnknownDriverId",
+          "id": "a-sJCI4u8Hkq4SR3_bcyIkw"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 300,
+      "id": "ahFyrBnpfh0Wc6mFWuIetJw"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aO0peUcza_kmapZZMdkCamw",
+    "name": "Menomonie truck moving without driver being logged in.",
+    "groups": [
+      {
+        "id": "b28A8"
+      }
+    ],
+    "version": "000000000000aecd"
+  },
+  {
+    "activeFrom": "2024-04-26T20:52:49.154Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "Speed",
+              "sequence": "0000000000000000",
+              "id": "aevet1LTp60iEwJqXuJF7UA"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "km/h",
+          "value": 127.13817600000002,
+          "id": "aRaKOtIZC7UyiX9U831jp-w"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 3,
+      "id": "a75d3hN54_EWVqOvb8_HhAA"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aDfIRcjqawUuzm1dL9A0mbA",
+    "name": "Max Speed >79MPH",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000aee7"
+  },
+  {
+    "activeFrom": "2024-10-23T23:49:26.885Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "IsDriving",
+                  "sequence": "0000000000000000",
+                  "id": "atr1HVJHpSUyvhNKYqmWlPg"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "value": 0,
+              "id": "aTCnFf0xu4kGpMkUKqemcsg"
+            }
+          ],
+          "conditionType": "Driver",
+          "sequence": "0000000000000000",
+          "driver": "UnknownDriverId",
+          "id": "aubnhio7klUau0ngSC6tG1g"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 300,
+      "id": "a0iW7tMUrgUuK6oqWFoLWHg"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aCedZeS6cTkW0NQ9Uv_UVww",
+    "name": "Sioux Falls trucks moving without being properly logged.",
+    "groups": [
+      {
+        "id": "b28A9"
+      }
+    ],
+    "version": "000000000000aec4"
+  },
+  {
+    "activeFrom": "2024-10-23T17:02:55.177Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "conditionType": "IsDriving",
+                      "sequence": "0000000000000000",
+                      "id": "aIntORUxpfEKjBVjAil-r-w"
+                    }
+                  ],
+                  "conditionType": "IsValueMoreThan",
+                  "sequence": "0000000000000000",
+                  "value": 0,
+                  "id": "afBxqPIZO5EiygmrG5agwUQ"
+                }
+              ],
+              "conditionType": "Driver",
+              "sequence": "0000000000000000",
+              "driver": "UnknownDriverId",
+              "id": "auQzxVIcmyUujMovLSQVlwQ"
+            },
+            {
+              "conditionType": "Ignition",
+              "sequence": "0000000000000001",
+              "value": 1,
+              "id": "ahvLSITqNEkKiaNn3oTZqPw"
+            }
+          ],
+          "conditionType": "And",
+          "sequence": "0000000000000000",
+          "id": "aa4GOGZN81kSmI2wKVGmLOA"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 300,
+      "id": "aLtNyrwomcU272zDcf5Mm7g"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "a9IeEehNcP0GhNZjD5tXHlg"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "acxf_Ete7AkmUGOeGz27ZuA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "a9IeEehNcP0GhNZjD5tXHlg"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "aCam2-SwhD0aBR-v_PuYh6A"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "a9IeEehNcP0GhNZjD5tXHlg",
+    "name": "Bismarck truck moving without driver being logged in",
+    "groups": [
+      {
+        "id": "b28A4"
+      }
+    ],
+    "version": "000000000000aebe"
+  },
+  {
+    "activeFrom": "2023-06-19T03:43:07.218Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "conditionType": "FilterStatusDataByDiagnostic",
+          "sequence": "0000000000000000",
+          "diagnostic": {
+            "id": "DiagnosticElectricalSystemRatingId",
+            "unitOfMeasure": "UnitOfMeasureNoneId"
+          },
+          "id": "aArQT_9NSOkmIbIC0ZBRf-A"
+        }
+      ],
+      "conditionType": "IsValueLessThan",
+      "sequence": "0000000000000000",
+      "value": 16,
+      "id": "aE-A5seW0TUaTjc7LKsll6A"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleVehicleESRHealthId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticElectricalSystemRatingId"
+        },
+        "id": "aJtNlmghsVUKMCSGgEkOs4w"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleVehicleESRHealthId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticElectricalSystemRatingId"
+        },
+        "id": "an7TDXy92X0u9_7RS3NzTlQ"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleVehicleESRHealthId",
+    "name": "Vehicle Electrical System Rating (ESR) Health",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000000d"
+  },
+  {
+    "activeFrom": "2024-11-08T13:40:59.236Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 128,
+      "g": 0,
+      "r": 128
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "FilterStatusDataByDiagnostic",
+                  "sequence": "0000000000000000",
+                  "diagnostic": {
+                    "id": "DiagnosticDriverSeatbeltId",
+                    "unitOfMeasure": "UnitOfMeasureNoneId"
+                  },
+                  "id": "aSCOreON-1UmyX93d8OOo3A"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "value": 0,
+              "id": "a4z7V9WR890ia4yIhwwpFXA"
+            },
+            {
+              "children": [
+                {
+                  "conditionType": "Speed",
+                  "sequence": "0000000000000000",
+                  "id": "aGXLEo3jqek-YX9z0hnmmhg"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000001",
+              "unit": "km/h",
+              "value": 17.702784,
+              "id": "aEKSDbRYQX0KxO98-OeN02g"
+            }
+          ],
+          "conditionType": "And",
+          "sequence": "0000000000000000",
+          "id": "aNao_5Hbotk-Xb2dOwq1eng"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 20,
+      "id": "av5cQHdCv_USMud7YZ06jRw"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aOVLpiu_bG0uPYmqyzKveqw"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticDriverSeatbeltId"
+        },
+        "id": "asWM0_X09vUWW5plUEH2xOw"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aOVLpiu_bG0uPYmqyzKveqw"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticDriverSeatbeltId"
+        },
+        "id": "a-BTvu-s6KUSBZEZ62DOQAw"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aOVLpiu_bG0uPYmqyzKveqw",
+    "name": "No Seat Belt >11 MPH",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000aef7"
+  },
+  {
+    "activeFrom": "2024-06-21T02:30:09.829Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "conditionType": "FilterStatusDataByDiagnostic",
+          "sequence": "0000000000000000",
+          "diagnostic": {
+            "id": "aPZ5aaBdfFUOHn37q8wtuyQ",
+            "unitOfMeasure": "UnitOfMeasureNoneId"
+          },
+          "id": "aM1i47lzJz0qDqzNjhLbxsQ"
+        }
+      ],
+      "conditionType": "IsValueMoreThan",
+      "sequence": "0000000000000000",
+      "value": 0,
+      "id": "aIvZud1SXIE6LmRRL8QwePw"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFgx4kkS8-kW-oVM4xo7pqg"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "aPZ5aaBdfFUOHn37q8wtuyQ"
+        },
+        "id": "aydpLnbyX60OaVpuyvNW9BA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aFgx4kkS8-kW-oVM4xo7pqg"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "aPZ5aaBdfFUOHn37q8wtuyQ"
+        },
+        "id": "af7h_m6VKWEuYQwEDsUOxjQ"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aFgx4kkS8-kW-oVM4xo7pqg",
+    "name": "Engine Coolant Issue",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000006a33"
+  },
+  {
+    "activeFrom": "2024-10-24T00:01:21.567Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "IsDriving",
+                  "sequence": "0000000000000000",
+                  "id": "alujlfcCRLUiasKOCh2-PtA"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "value": 0,
+              "id": "anRrmaCy05kuR_v58YAOu1A"
+            }
+          ],
+          "conditionType": "Driver",
+          "sequence": "0000000000000000",
+          "driver": "UnknownDriverId",
+          "id": "a_k7E0WzQrEOOBghGe9mUNg"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 300,
+      "id": "aBA81IzmiRUu3jWZXnfiypg"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aLQIEk60f4ECHiZCvBH6AlA",
+    "name": "Rockford truck moving and not logged in",
+    "groups": [
+      {
+        "id": "b28AA"
+      }
+    ],
+    "version": "000000000000aec8"
+  },
+  {
+    "activeFrom": "2025-01-10T14:34:57.742Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "Speed",
+              "sequence": "0000000000000000",
+              "id": "am0yrKAUmWkWyyh6ccZ7bkQ"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "km/h",
+          "value": 0,
+          "id": "a-0RpZaoZXketxcYjx3MLgw"
+        },
+        {
+          "conditionType": "Ignition",
+          "sequence": "0000000000000001",
+          "value": 1,
+          "id": "aC3v7RqeSUUK4AAgrBjhF4Q"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticAccelerationForwardBrakingId",
+                "unitOfMeasure": "UnitOfMeasureMetersPerSecondSquaredId"
+              },
+              "id": "aO2rV6Hn3f0GNT7c_EJy62w"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000002",
+          "unit": "m/s^2",
+          "value": -4.766031960657289,
+          "id": "atZIYwB8-d0CAsyEcXCRSFg"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "akSZo7ImurkCAvtNq4at9Mg"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleHarshBrakingId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationForwardBrakingId"
+        },
+        "id": "aKn1fMs-gC0e8_4m9hNbfnA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleHarshBrakingId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationForwardBrakingId"
+        },
+        "id": "arvv7hLodXU6d4gX18dV9nw"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleHarshBrakingId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "agxKZUsfmsUezOvWHNTWhFQ"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleHarshBrakingId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "aezgpxOa9O0azHhyPE-6LLA"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleHarshBrakingId",
+    "name": "Harsh Braking",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000af79"
+  },
+  {
+    "activeFrom": "2024-04-08T12:59:11.657Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "conditionType": "Fault",
+          "sequence": "0000000000000000",
+          "diagnostic": {
+            "id": "DiagnosticGeneralVehicleWarningLightId",
+            "unitOfMeasure": "UnitOfMeasureNoneId"
+          },
+          "id": "alCrVux5Ya0SMgdJAS5hvsQ"
+        },
+        {
+          "conditionType": "Fault",
+          "sequence": "0000000000000001",
+          "diagnostic": {
+            "id": "DiagnosticLowPriorityWarningLightId",
+            "unitOfMeasure": "UnitOfMeasureNoneId"
+          },
+          "id": "aoE8DVrHqnUynjey4jUFB5A"
+        }
+      ],
+      "conditionType": "Or",
+      "sequence": "0000000000000000",
+      "id": "a6k8K2KH5AEK7zWR4wR9WkQ"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleEngineLightOnId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticGeneralVehicleWarningLightId"
+        },
+        "id": "aiQYA2i9XPUW3SkIyz_dDFA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleEngineLightOnId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticGeneralVehicleWarningLightId"
+        },
+        "id": "aqsXHupvkEE6ABPibEPk1XA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleEngineLightOnId"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticLowPriorityWarningLightId"
+        },
+        "id": "aWspY2wdhfkW6AEfYHpU4MA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "RuleEngineLightOnId"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticLowPriorityWarningLightId"
+        },
+        "id": "atU1PkTbOLU6p3ilzIVUfFQ"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleEngineLightOnId",
+    "name": "Engine Light On",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "00000000000069b6"
+  },
+  {
+    "activeFrom": "2024-10-23T17:09:51.571Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "TripDuration",
+              "sequence": "0000000000000000",
+              "id": "auPFRJBbnqUC05S3LPt3njg"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "s",
+          "value": 300,
+          "id": "ak7VxT-SoKEq75XKAWnc9ig"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "conditionType": "IsDriving",
+                      "sequence": "0000000000000000",
+                      "id": "aDLMidqp-GUGigBjn9Znwdw"
+                    }
+                  ],
+                  "conditionType": "IsValueMoreThan",
+                  "sequence": "0000000000000000",
+                  "value": 0,
+                  "id": "a2Ok0anFgKU-6MdVpI9hN2g"
+                }
+              ],
+              "conditionType": "Driver",
+              "sequence": "0000000000000000",
+              "driver": "UnknownDriverId",
+              "id": "aNtki8TqKz0KxNPHAMGarNA"
+            },
+            {
+              "conditionType": "Group",
+              "sequence": "0000000000000001",
+              "group": {
+                "children": [],
+                "id": "b28A5"
+              },
+              "id": "azmh1ZqLzckCVW97Jzv2-bA"
+            }
+          ],
+          "conditionType": "And",
+          "sequence": "0000000000000001",
+          "id": "aQx_5yViE5Em0QAa25DobRA"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "aGYHAvJwNJkGNVdTRv68GkA"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aM3GXosfnBEaiaLJ1sATsNw",
+    "name": "Bloomington Truck moving without driver logged in",
+    "groups": [
+      {
+        "id": "b28A5"
+      }
+    ],
+    "version": "000000000000aebf"
+  },
+  {
+    "activeFrom": "2024-10-23T17:32:04.026Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "IsDriving",
+                  "sequence": "0000000000000000",
+                  "id": "aLCZTVTEUOkyI5k2PVXVmKw"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "value": 0,
+              "id": "aHTFOsJxIm0KYGvXeF4urEg"
+            }
+          ],
+          "conditionType": "Driver",
+          "sequence": "0000000000000000",
+          "driver": "UnknownDriverId",
+          "id": "akfVjZWW3h0iWMy15dZOHjQ"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 300,
+      "id": "apPOq9clqKkuTVAiOCm-DDQ"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aVD6wtyodbUCZj2gtqMMjnw",
+    "name": "Truck moving without being properly logged.",
+    "groups": [
+      {
+        "id": "b28AB"
+      },
+      {
+        "id": "b28A9"
+      },
+      {
+        "id": "b28AA"
+      },
+      {
+        "id": "b28A8"
+      },
+      {
+        "id": "b28A4"
+      },
+      {
+        "id": "b28A7"
+      },
+      {
+        "id": "b28A5"
+      },
+      {
+        "id": "b28A2"
+      }
+    ],
+    "version": "000000000000aec3"
+  },
+  {
+    "activeFrom": "2024-06-21T02:29:18.022Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "a9sJ9p5rjSESpq5uaATjlCg",
+                "unitOfMeasure": "UnitOfMeasureNoneId"
+              },
+              "id": "aK6Z8gETEs0GMJjJI7PoA6w"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "value": 0,
+          "id": "aBbWh04NlC0uEytjP_V9-bA"
+        },
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "a9sJ9p5rjSESpq5uaATjlCg",
+                "unitOfMeasure": "UnitOfMeasureNoneId"
+              },
+              "id": "apYDACvi6AE2__rysG-VTYA"
+            }
+          ],
+          "conditionType": "IsValueLessThan",
+          "sequence": "0000000000000001",
+          "value": 2,
+          "id": "aJzgRZgud0k63IHOkjzT28A"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "a4rTfePmK-EuduxXkT3FHZg"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "a5wh1unulzkWXOfbx9i8d1A"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "a9sJ9p5rjSESpq5uaATjlCg"
+        },
+        "id": "acS-zuPYZlkWIc9ZYvOGzEA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "a5wh1unulzkWXOfbx9i8d1A"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "a9sJ9p5rjSESpq5uaATjlCg"
+        },
+        "id": "aeqdGqSv_cUaPJmEXIrdeTg"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "a5wh1unulzkWXOfbx9i8d1A",
+    "name": "Exhaust Gas Recirculation (EGR) Issue",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000006a31"
+  },
+  {
+    "activeFrom": "2024-04-24T16:02:50.078Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "Speed",
+              "sequence": "0000000000000000",
+              "id": "a_LXb9xZxuU2bE3HTsYZdeQ"
+            },
+            {
+              "conditionType": "SpeedLimitExcludingEstimates",
+              "sequence": "0000000000000001",
+              "id": "aEPvwp7cxiEqh3hFrD4-FuQ"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "km/h",
+          "value": 22.530816,
+          "id": "a69UIJRA540KcvJeQ1kXR7Q"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 5,
+      "id": "a0nsCeMJm80em5TvdJM4s8Q"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "a-nNpxKyR0kW4-ZJkFvAz4g",
+    "name": "Excessive Speeding",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "00000000000069d9"
+  },
+  {
+    "activeFrom": "2024-07-09T17:35:22.976Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 255,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "conditionType": "InsideArea",
+      "sequence": "0000000000000000",
+      "zoneType": {
+        "id": "b17"
+      },
+      "id": "al3hTJhkyiki9aWThyY9ZYQ"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aNapKyyjAsU-9ZyE6zUx3KA",
+    "name": "Inside EFS Fuel Station Geofence",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000006a48"
+  },
+  {
+    "activeFrom": "2024-10-23T17:16:11.294Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "conditionType": "IsDriving",
+                      "sequence": "0000000000000000",
+                      "id": "a7CA1TSxuC06lTYmbAfBC1g"
+                    }
+                  ],
+                  "conditionType": "IsValueMoreThan",
+                  "sequence": "0000000000000000",
+                  "value": 0,
+                  "id": "amWksR5WZM0GKpWQ9rxUx2A"
+                }
+              ],
+              "conditionType": "Driver",
+              "sequence": "0000000000000000",
+              "driver": "UnknownDriverId",
+              "id": "aXC6V2N94s020H2vcRHue2A"
+            }
+          ],
+          "conditionType": "DurationLongerThan",
+          "sequence": "0000000000000000",
+          "unit": "s",
+          "value": 300,
+          "id": "aWveJDbR8nUaOKoqV_Mwp3w"
+        },
+        {
+          "conditionType": "Group",
+          "sequence": "0000000000000001",
+          "group": {
+            "children": [],
+            "id": "b28A7"
+          },
+          "id": "apWqe3dlkPUinksQmwZA8lQ"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "arBxlVs3s7EOFRuotcbjDLg"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "arr6BzuwPmE-2ENCmAY8jKA",
+    "name": "Fargo Truck moving without being logged in",
+    "groups": [
+      {
+        "id": "b28A7"
+      }
+    ],
+    "version": "000000000000aec0"
+  },
+  {
+    "activeFrom": "2024-12-10T15:15:13.544Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "conditionType": "DVIRDefect",
+      "sequence": "0000000000000000",
+      "value": -1,
+      "id": "arn98_6NUdUW-RyVmYuZQbg"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleDvirDefectId",
+    "name": "Dvir Defect",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000af3f"
+  },
+  {
+    "activeFrom": "2024-04-26T20:51:06.690Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 165,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "Speed",
+                  "sequence": "0000000000000000",
+                  "id": "aCXXFJ049kEWOKC3lCocDsg"
+                },
+                {
+                  "conditionType": "SpeedLimitCommercial",
+                  "sequence": "0000000000000001",
+                  "id": "anDrtt9ElfUmnvsQHDjpXWg"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "unit": "km/h",
+              "value": 9.656064,
+              "id": "adZzX2lpmo0C_Mm9BdIVY3g"
+            },
+            {
+              "children": [
+                {
+                  "conditionType": "Speed",
+                  "sequence": "0000000000000000",
+                  "id": "a0co-JRBGxk68z9eIx4BJ5w"
+                },
+                {
+                  "conditionType": "SpeedLimitCommunity",
+                  "sequence": "0000000000000001",
+                  "id": "a8JXlB3HkLUOSxi3noZd2ag"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000001",
+              "unit": "km/h",
+              "value": 9.656064,
+              "id": "a-joVFCuYP0G8nDVaILhY9w"
+            }
+          ],
+          "conditionType": "And",
+          "sequence": "0000000000000000",
+          "id": "al-Vii9aN60-TyaGrIA7eig"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 10,
+      "id": "axt9uvZX6SUOM69BE8U7wKw"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aaGiQ4tuzy0qUJN56fqna5Q",
+    "name": "Speeding >6 MPH",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000aee3"
+  },
+  {
+    "activeFrom": "2025-02-05T22:17:27.375Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "Speed",
+                  "sequence": "0000000000000000",
+                  "id": "alhGVUvKnJkKh4GFQ35nDUg"
+                },
+                {
+                  "conditionType": "SpeedLimitCommunity",
+                  "sequence": "0000000000000001",
+                  "id": "aVAgE8JGuQkWK5-Mxdyj3wA"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "unit": "km/h",
+              "value": 22.530816,
+              "id": "aQ_I2O1bLUUmwvP4PpkSvHA"
+            },
+            {
+              "children": [
+                {
+                  "conditionType": "Speed",
+                  "sequence": "0000000000000000",
+                  "id": "aU8FyivyeXkm6wrbFLskrQw"
+                },
+                {
+                  "conditionType": "SpeedLimitCommercial",
+                  "sequence": "0000000000000001",
+                  "id": "aLX2U8rMcakew2jLhNS-6ag"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000001",
+              "unit": "km/h",
+              "value": 22.530816,
+              "id": "aTLXsDHxOBk287r7o_LxN4w"
+            }
+          ],
+          "conditionType": "And",
+          "sequence": "0000000000000000",
+          "id": "autEM2pGVnE6izGgwJ3sffg"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 3,
+      "id": "aRpJUYyQmeU2-J6SmHD4YpQ"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aLKrg7uYpwEWQ_LPBUjfmEg",
+    "name": "Excessive Speeding >14 MPH",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000af91"
+  },
+  {
+    "activeFrom": "2024-03-05T14:50:22.769Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 0,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticEngineCoolantTemperatureId",
+                "unitOfMeasure": "UnitOfMeasureDegreesCelsiusId"
+              },
+              "id": "afYjnPc9YXUSAGP-Fn8sF7Q"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "C",
+          "value": 109.5,
+          "id": "aE-B6M_3fmUGlwyuZuCj8ag"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 300,
+      "id": "aDjzfNynni06PdWs7AeSj4g"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aMinC86nTTECaL3Ds9PUDeQ"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticEngineCoolantTemperatureId"
+        },
+        "id": "aTnHW8gqzYUOqAR-ZR9LHBA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aMinC86nTTECaL3Ds9PUDeQ"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticEngineCoolantTemperatureId"
+        },
+        "id": "au269p8kSN0OOfafw6Ykicw"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aMinC86nTTECaL3Ds9PUDeQ",
+    "name": "Coolant Temperature Critical",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000006973"
+  },
+  {
+    "activeFrom": "1986-01-01T00:00:00.000Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Stock",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 255,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "conditionType": "ApplicationException",
+      "sequence": "0000000000000000",
+      "id": "a0EPtvAmBz0OGQJlwoUlQYg"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "RuleApplicationExceptionId",
+    "name": "**Application Exception",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000000005"
+  },
+  {
+    "activeFrom": "2024-03-05T14:51:25.147Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 0,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticEngineTransmissionOilTemperatureId",
+                "unitOfMeasure": "UnitOfMeasureDegreesCelsiusId"
+              },
+              "id": "aMA3j3YfPykeBRYunUnjbKg"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "C",
+          "value": 110,
+          "id": "ay_AEHesHhki9iPIBJxU5cQ"
+        }
+      ],
+      "conditionType": "DurationLongerThan",
+      "sequence": "0000000000000000",
+      "unit": "s",
+      "value": 300,
+      "id": "akzr7O7CI90eolQSi-bSwCg"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aU7WV-XBYwkuW-d52OykECw"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticEngineTransmissionOilTemperatureId"
+        },
+        "id": "ar6F-7nez9EeUF9USCeZJuA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aU7WV-XBYwkuW-d52OykECw"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticEngineTransmissionOilTemperatureId"
+        },
+        "id": "aXyGMrK-xA0iriq0XnMFRiw"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aU7WV-XBYwkuW-d52OykECw",
+    "name": "Transmission Oil Overheating",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "0000000000006976"
+  },
+  {
+    "activeFrom": "2024-11-12T15:35:48.805Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 255,
+      "r": 255
+    },
+    "comment": "Harsh Acceleration rule excluding events within customer yards (due to spotting operations)",
+    "condition": {
+      "children": [
+        {
+          "children": [
+            {
+              "conditionType": "FilterStatusDataByDiagnostic",
+              "sequence": "0000000000000000",
+              "diagnostic": {
+                "id": "DiagnosticAccelerationForwardBrakingId",
+                "unitOfMeasure": "UnitOfMeasureMetersPerSecondSquaredId"
+              },
+              "id": "atjwjaLu6okGpIu9udwlZxw"
+            }
+          ],
+          "conditionType": "IsValueMoreThan",
+          "sequence": "0000000000000000",
+          "unit": "m/s^2",
+          "value": 2.82431523594506,
+          "id": "amlu5pW-R80qUiAelHGYYzQ"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "conditionType": "Speed",
+                  "sequence": "0000000000000000",
+                  "id": "axBmWxYrgTkeQZjkfqDWmyA"
+                }
+              ],
+              "conditionType": "IsValueMoreThan",
+              "sequence": "0000000000000000",
+              "unit": "km/h",
+              "value": 0,
+              "id": "aczYxA9NhA0WE6LMy-Q8AOg"
+            },
+            {
+              "conditionType": "Ignition",
+              "sequence": "0000000000000001",
+              "value": 1,
+              "id": "aHhtWq1gREkWoXOpp7VDZ6g"
+            }
+          ],
+          "conditionType": "And",
+          "sequence": "0000000000000001",
+          "id": "aQKfM4B8pz0WJwEvFq8bIGQ"
+        },
+        {
+          "conditionType": "OutsideArea",
+          "sequence": "0000000000000002",
+          "zoneType": {
+            "id": "b82"
+          },
+          "id": "azAlcpuPheEq70cJ-3Tk3uw"
+        }
+      ],
+      "conditionType": "And",
+      "sequence": "0000000000000000",
+      "id": "avQAU36VfZkONkBkDGxD_TQ"
+    },
+    "monitors": [
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aleeE_zNpQkKhX0E8mMXX0A"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationForwardBrakingId"
+        },
+        "id": "adtaY4pEs6UCNI6cZh5gbdA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aleeE_zNpQkKhX0E8mMXX0A"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticAccelerationForwardBrakingId"
+        },
+        "id": "a5M21jMKTQUSgwmUKBFbqCw"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aleeE_zNpQkKhX0E8mMXX0A"
+        },
+        "monitorPredicate": "Min",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "albbHXqTpNkiGQMYZuZvPVA"
+      },
+      {
+        "rule": {
+          "state": "ExceptionRuleStateActiveId",
+          "reason": "ExceptionRuleReasonNoneId",
+          "id": "aleeE_zNpQkKhX0E8mMXX0A"
+        },
+        "monitorPredicate": "Max",
+        "monitorType": "StatusStatistics",
+        "diagnostic": {
+          "id": "DiagnosticIgnitionId"
+        },
+        "id": "aJWeOlDe-00uXuKG-bGZDcw"
+      }
+    ],
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "aleeE_zNpQkKhX0E8mMXX0A",
+    "name": "Harsh Accel",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000af00"
+  },
+  {
+    "activeFrom": "2025-06-18T16:06:37.879Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "baseType": "Custom",
+    "color": {
+      "a": 255,
+      "b": 0,
+      "g": 96,
+      "r": 255
+    },
+    "comment": "",
+    "condition": {
+      "children": [
+        {
+          "conditionType": "EnteringArea",
+          "sequence": "0000000000000000",
+          "zone": {
+            "id": "b6D7D"
+          },
+          "id": "a6OEzY8mZ-E2WCf1bQLsP3Q"
+        }
+      ],
+      "conditionType": "Driver",
+      "sequence": "0000000000000000",
+      "driver": {
+        "id": "b167E",
+        "isDriver": true
+      },
+      "id": "a64EffhFRM06zUymDFJRqgA"
+    },
+    "state": "ExceptionRuleStateActiveId",
+    "reason": "ExceptionRuleReasonNoneId",
+    "id": "alj3o_6q6w0-LonalIiJrjw",
+    "name": "David Summers in 331 Vanderbilt Dr",
+    "groups": [
+      {
+        "id": "GroupCompanyId"
+      }
+    ],
+    "version": "000000000000b06b"
+  }
+]

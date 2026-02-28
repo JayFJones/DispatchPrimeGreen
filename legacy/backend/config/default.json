@@ -1,0 +1,36 @@
+{
+  "host": "localhost",
+  "port": 3031,
+  "public": "./public/",
+  "origins": [
+    "http://localhost:3031",
+    "http://localhost:3001",
+    "*"
+  ],
+  "paginate": {
+    "default": 10,
+    "max": 2000
+  },
+  "mongodb": "mongodb://127.0.0.1:27017/LanterMap",
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "iYQ3PZNStRsxV8CFhiBqXDsHs9lPkcgx",
+    "authStrategies": [
+      "jwt",
+      "local"
+    ],
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  }
+}

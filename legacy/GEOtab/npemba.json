@@ -1,0 +1,114 @@
+[
+  {
+    "driverGroups": [
+      {
+        "id": "b28A2"
+      }
+    ],
+    "keys": [],
+    "viewDriversOwnDataOnly": false,
+    "licenseProvince": "KY",
+    "licenseNumber": "P16874548",
+    "smsNotificationsOptIn": false,
+    "acceptedEULA": 20,
+    "driveGuideVersion": 0,
+    "wifiEULA": 0,
+    "activeDashboardReports": [],
+    "activeDefaultDashboards": [],
+    "jobPriorities": [],
+    "bookmarks": [],
+    "activeFrom": "2024-09-12T15:59:30.092Z",
+    "activeTo": "2050-01-01T00:00:00.000Z",
+    "availableDashboardReports": [],
+    "cannedResponseOptions": [],
+    "changePassword": false,
+    "comment": "",
+    "companyGroups": [
+      {
+        "id": "b28A2"
+      }
+    ],
+    "mediaFiles": [],
+    "accessGroupFilter": {
+      "id": "aiAwPl3viEE66z9mR_xNKqw"
+    },
+    "dateFormat": "MM/dd/yy HH:mm:ss",
+    "phoneNumber": "",
+    "displayCurrency": "Usd",
+    "countryCode": "ca",
+    "phoneNumberExtension": "",
+    "defaultGoogleMapStyle": "Roadmap",
+    "defaultMapEngine": "GoogleMaps",
+    "defaultOpenStreetMapStyle": "MapBox",
+    "defaultHereMapStyle": "Roadmap",
+    "defaultPage": "dashboard",
+    "designation": "",
+    "employeeNo": "425333953",
+    "firstName": "Noor",
+    "fuelEconomyUnit": "MPGUS",
+    "electricEnergyEconomyUnit": "MPGEUS",
+    "hosRuleSet": "America8DayBig",
+    "isYardMoveEnabled": false,
+    "isPersonalConveyanceEnabled": false,
+    "isExemptHOSEnabled": false,
+    "isAdverseDrivingEnabled": true,
+    "maxPCDistancePerDay": 0,
+    "authorityName": "Westmore Carriers LLC",
+    "authorityAddress": "OS899 Thorndon Ridge Dr\nElburn IL 60119\n",
+    "id": "b16B1",
+    "isEULAAccepted": true,
+    "isNewsEnabled": true,
+    "isLabsEnabled": true,
+    "isMetric": false,
+    "language": "en",
+    "firstDayOfWeek": "Sunday",
+    "lastName": "Pemba",
+    "mapViews": [
+      {
+        "name": "All assets",
+        "viewport": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "highlightGroups": [],
+        "settings": "{\"defaultAllAssets\":true}"
+      },
+      {
+        "name": "North America",
+        "viewport": {
+          "x": -181,
+          "y": 69,
+          "width": 145.5,
+          "height": -52
+        },
+        "highlightGroups": []
+      }
+    ],
+    "name": "npemba",
+    "privateUserGroups": [],
+    "reportGroups": [
+      {
+        "id": "b2957"
+      }
+    ],
+    "securityGroups": [
+      {
+        "id": "b27E0"
+      }
+    ],
+    "showClickOnceWarning": true,
+    "timeZoneId": "EST5EDT",
+    "userAuthenticationType": "BasicAuthentication",
+    "zoneDisplayMode": "Default",
+    "companyName": "Westmore Carriers LLC Louisville, KY",
+    "companyAddress": "2813 Watterson Trail\nLouisville KY 40299\n",
+    "carrierNumber": "3551070",
+    "lastAccessDate": "2025-08-09T05:17:13.059Z",
+    "isDriver": true,
+    "isEmailReportEnabled": true,
+    "featurePreview": "",
+    "isAutoAdded": false
+  }
+]
