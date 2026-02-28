@@ -3,16 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "main": "./dist/types/index.js",
-  "types": "./dist/types/index.d.ts",
   "exports": {
-    "./types": {
-      "import": "./dist/types/index.js",
-      "types": "./dist/types/index.d.ts"
+    "./types/*": {
+      "import": "./dist/types/*.js",
+      "types": "./dist/types/*.d.ts"
     },
-    "./constants": {
-      "import": "./dist/constants/index.js",
-      "types": "./dist/constants/index.d.ts"
+    "./constants/*": {
+      "import": "./dist/constants/*.js",
+      "types": "./dist/constants/*.d.ts"
     }
   },
   "scripts": {
