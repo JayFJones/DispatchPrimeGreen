@@ -11,6 +11,10 @@ import './auth/request-context.js';
 
 import authRoutes from './routes/auth.js';
 import userRoutes from './routes/users.js';
+import terminalRoutes from './routes/terminals.js';
+import driverRoutes from './routes/drivers.js';
+import vehicleRoutes from './routes/vehicles.js';
+import equipmentRoutes from './routes/equipment.js';
 
 const port = Number(process.env['PORT'] ?? 3031);
 
@@ -41,6 +45,10 @@ export async function buildServer() {
   // Routes
   await server.register(authRoutes);
   await server.register(userRoutes);
+  await server.register(terminalRoutes);
+  await server.register(driverRoutes);
+  await server.register(vehicleRoutes);
+  await server.register(equipmentRoutes);
 
   return server;
 }

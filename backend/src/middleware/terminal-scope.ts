@@ -14,7 +14,8 @@ export async function requireTerminalScope(
 ): Promise<void> {
   const terminalId =
     (request.headers['x-terminal-id'] as string | undefined) ??
-    (request.query as Record<string, string | undefined>)['terminalId'];
+    (request.query as Record<string, string | undefined>)['terminalId'] ??
+    (request.params as Record<string, string | undefined>)['terminalId'];
 
   if (!terminalId) {
     reply.code(400).send({ error: { code: 'MISSING_TERMINAL', message: 'X-Terminal-Id header or terminalId query parameter is required' } });

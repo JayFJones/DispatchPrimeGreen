@@ -3,7 +3,13 @@ import supertest from 'supertest';
 import type { FastifyInstance } from 'fastify';
 
 // Mock database before any imports that use it
-vi.mock('../../src/db/client.js', () => ({ default: {} }));
+vi.mock('../../src/db/client.js', () => {
+  const sql = Object.assign(
+    (..._args: unknown[]) => [] as unknown[],
+    { array: (..._args: unknown[]) => [] as unknown[], json: (v: unknown) => v },
+  );
+  return { default: sql };
+});
 
 // Mock user query functions
 const mockFindUserByEmail = vi.fn();
