@@ -21,6 +21,7 @@ import dispatchRoutes from './routes/dispatch.js';
 import alertRoutes from './routes/alerts.js';
 import availabilityRoutes from './routes/availability.js';
 import routeSubstitutionRoutes from './routes/route-substitutions.js';
+import reportingRoutes from './routes/reporting.js';
 
 const port = Number(process.env['PORT'] ?? 3031);
 
@@ -61,6 +62,7 @@ export async function buildServer() {
   await server.register(alertRoutes);
   await server.register(availabilityRoutes);
   await server.register(routeSubstitutionRoutes);
+  await server.register(reportingRoutes);
 
   return server;
 }
